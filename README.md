@@ -4,7 +4,7 @@
 
 ### NRP : 5025201081
 
-### Kelas : Probabilitas dan Statistik
+### Kelas : Probabilitas dan Statistik - E
 
 <hr>
 
