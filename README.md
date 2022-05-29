@@ -23,14 +23,15 @@
     #1.a --> standar deviasi
     sd1 = sd(X-Y)
     sd1
-    ```
+     ```
 
-    - memasukkan data sebeum dan sesudah melakukan aktivitas
-    - lalu mencari nilai standar deviasi nya
+> - memasukkan data sebeum dan sesudah melakukan aktivitas
+> - lalu mencari nilai standar deviasi nya
+> - Hasil :
+![1 a](https://user-images.githubusercontent.com/81240334/170875765-e954f0b9-ee68-4a9b-a1a8-6bcfc90b7131.jpg)
 
-    - ss : 
+b. carilah nilai t (p-value)
 
-    b. carilah nilai t (p-value)
 
     ```r
     #1.b --> nilai t (p-value)
@@ -41,20 +42,19 @@
     pvalue1 <- pnorm(-abs(z1))
     pvalue1
     ```
-    - menggunakan `t.test` untuk mencari  nilai p-value nya
+> - menggunakan `t.test` untuk mencari  nilai p-value nya
+> - hasil : 
+![1 b](https://user-images.githubusercontent.com/81240334/170875771-40825cbf-4a24-4df5-8f79-f618b6559e39.jpg)
 
-    - ss : 
-
-    c. tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴 jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”
+c. tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴 jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”
 
     ```r
     #1.c
     t.test (Y, X, paired = TRUE)
     ```
-
-    - menurut hasil karena p-value < 0,05 maka H0 ditolak
-
-     - ss : 
+> - menurut hasil karena p-value < 0,05 maka H0 ditolak
+> - Hasil : 
+![1 c](https://user-images.githubusercontent.com/81240334/170875786-c9e64755-4b26-4553-8eb8-b6300ed5088f.jpg)
 
     
 <hr>
@@ -65,9 +65,7 @@
 
 a. Apakah Anda setuju dengan klaim tersebut?
 
-    - setuju, karena sampel acak rata-rata menunjukkan lebih besar dari 20.000 km/jam
-
-    - ss :
+> - Setuju, karena sampel acak rata-rata menunjukkan lebih besar dari 20.000 km/jam
      
 b. Jelaskan maksud dari output yang dihasilkan!
 
@@ -82,6 +80,9 @@ b. Jelaskan maksud dari output yang dihasilkan!
     pvalue2 <- pnorm(-abs(z2))
     pvalue2
     ```
+
+> - p value nya adalah : 
+![2](https://user-images.githubusercontent.com/81240334/170875788-66b7bba4-fc6a-4483-a57f-3e4b2ccf0257.jpg)
 
 c. Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
     - tidak ada pengaruh yang signifikan secara statistika
