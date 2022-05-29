@@ -19,7 +19,16 @@
 
 # Soal 1
 
- 1.  a. Carilah Standar Deviasi dari data selisih pasangan pengamatan tabel
+ 1.  Seorang peneliti melakukan penelitian mengenai pengaruh aktivitas 𝐴 terhadap
+kadar saturasi oksigen pada manusia. Peneliti tersebut mengambil sampel
+sebanyak 9 responden. Pertama, sebelum melakukan aktivitas 𝐴, peneliti mencatat
+kadar saturasi oksigen dari 9 responden tersebut. Kemudian, 9 responden tersebut
+diminta melakukan aktivitas 𝐴. Setelah 15 menit, peneliti tersebut mencatat kembali
+kadar saturasi oksigen dari 9 responden tersebut.
+
+![soal 1](https://user-images.githubusercontent.com/81240334/170879967-97323846-f365-4a04-8f93-2ce56c95895a.jpg)
+
+a. Carilah Standar Deviasi dari data selisih pasangan pengamatan tabel
 
 ```r
 #data
@@ -101,7 +110,15 @@ c. Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
 <hr>
 
 # Soal 3
-3. Berilah kesimpulan yang didapatkan dari hasil tabel diatas. 
+3. Diketahui perusahaan memiliki seorang data analyst ingin memecahkan
+permasalahan pengambilan keputusan dalam perusahaan tersebut. Selanjutnya
+didapatkanlah data berikut dari perusahaan saham tersebut.
+
+![soal3](https://user-images.githubusercontent.com/81240334/170879963-88184816-12c4-4286-8067-0e95c6633c53.jpg)
+
+Dari data diatas berilah keputusan serta kesimpulan yang didapatkan dari hasil
+diatas. Asumsikan nilai variancenya sama, apakah ada perbedaan pada
+rata-ratanya (α= 0.05)? Buatlah :
 
 a. H0 dan H1
 > H0 : miuBali = miuBandung
