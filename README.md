@@ -104,7 +104,8 @@ b. Jelaskan maksud dari output yang dihasilkan!
 ![2](https://user-images.githubusercontent.com/81240334/170875788-66b7bba4-fc6a-4483-a57f-3e4b2ccf0257.jpg)
 
 c. Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
-    - tidak ada pengaruh yang signifikan secara statistika
+
+> - tidak ada pengaruh yang signifikan secara statistika
 
 
 <hr>
@@ -118,7 +119,7 @@ didapatkanlah data berikut dari perusahaan saham tersebut.
 
 Dari data diatas berilah keputusan serta kesimpulan yang didapatkan dari hasil
 diatas. Asumsikan nilai variancenya sama, apakah ada perbedaan pada
-rata-ratanya (α= 0.05)? Buatlah :
+rata-ratanya __(α= 0.05)__? Buatlah :
 
 a. H0 dan H1
 > H0 : miuBali = miuBandung
@@ -192,26 +193,26 @@ ia mengumpulkan data tiga spesies kucing yaitu kucing oren, kucing hitam dan
 kucing putih dengan panjangnya masing-masing.
 Jika :
 
-diketahui dataset https://intip.in/datasetprobstat1
+    diketahui dataset https://intip.in/datasetprobstat1
 
-H0 : Tidak ada perbedaan panjang antara ketiga spesies atau rata-rata panjangnya
-sama
+    H0 : Tidak ada perbedaan panjang antara ketiga spesies atau rata-rata panjangnya
+    sama
 
-a. Buatlah masing masing jenis spesies menjadi 3 subjek "Grup" (grup 1,grup
-2,grup 3). Lalu Gambarkan plot kuantil normal untuk setiap kelompok dan
-lihat apakah ada outlier utama dalam homogenitas varians.
+    a. Buatlah masing masing jenis spesies menjadi 3 subjek "Grup" (grup 1,grup
+    2,grup 3). Lalu Gambarkan plot kuantil normal untuk setiap kelompok dan
+    lihat apakah ada outlier utama dalam homogenitas varians.
 
-b. carilah atau periksalah Homogeneity of variances nya , Berapa nilai p yang didapatkan? , Apa hipotesis dan kesimpulan yang dapat diambil ?
+    b. carilah atau periksalah Homogeneity of variances nya , Berapa nilai p yang didapatkan? , Apa hipotesis dan kesimpulan yang dapat diambil ?
 
-c. Untuk uji ANOVA (satu arah), buatlah model linier dengan Panjang versus
-Grup dan beri nama model tersebut model 1.
+    c. Untuk uji ANOVA (satu arah), buatlah model linier dengan Panjang versus
+    Grup dan beri nama model tersebut model 1.
 
-d. Dari Hasil Poin C, Berapakah nilai-p ? , Apa yang dapat Anda simpulkan
-dari H0?
+    d. Dari Hasil Poin C, Berapakah nilai-p ? , Apa yang dapat Anda simpulkan
+    dari H0?
 
-e. Verifikasilah jawaban model 1 dengan Post-hoc test Tukey HSD, dari nilai p yang didapatkan apakah satu jenis kucing lebih panjang dari yang lain? Jelaskan.
+    e. Verifikasilah jawaban model 1 dengan Post-hoc test Tukey HSD, dari nilai p yang didapatkan apakah satu jenis kucing lebih panjang dari yang lain? Jelaskan.
 
-f. Visualisasikan data dengan ggplot2
+    f. Visualisasikan data dengan ggplot2
 
 <hr>
 
