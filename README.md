@@ -57,7 +57,7 @@ b. carilah nilai t (p-value)
     pvalue1 <- pnorm(-abs(z1))
     pvalue1
 ```
-> - menggunakan `t.test` untuk mencari  nilai p-value nya
+
 > - hasil : 
 
 ![1 b](https://user-images.githubusercontent.com/81240334/170875771-40825cbf-4a24-4df5-8f79-f618b6559e39.jpg)
@@ -69,6 +69,7 @@ c. tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam 
     t.test (Y, X, paired = TRUE)
 ```
 
+> - menggunakan `t.test` untuk mencari  nilai p-value nya
 > - menurut hasil karena p-value < 0,05 maka H0 ditolak
 > - Hasil : 
 
